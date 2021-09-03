@@ -1,11 +1,12 @@
-import React from 'react'
+import { Heading } from "@chakra-ui/layout";
+import React from "react";
 
 function Account() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <Heading as="h4">Savings account</Heading>
+    </div>
+  );
 }
 
-export default Account
+export default Account;

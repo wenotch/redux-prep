@@ -1,11 +1,12 @@
-import React from 'react'
+import { Heading } from "@chakra-ui/layout";
+import React from "react";
 
 function Balance() {
-    return (
-        <div>
-            
-        </div>
-    )
+  return (
+    <div>
+      <Heading as="h4"> $100</Heading>
+    </div>
+  );
 }
 
-export default Balance
+export default Balance;
